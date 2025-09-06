@@ -1,0 +1,28 @@
+{
+  "name": "claude-code-timer",
+  "version": "1.0.0",
+  "description": "A beautiful cosmic-themed timer tracker for Claude Code reset times",
+  "main": "index.html",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": [
+    "timer",
+    "claude",
+    "code",
+    "tracker",
+    "cosmic",
+    "web-app"
+  ],
+  "author": "Geethika Isuru",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beautiful cosmic-themed timer tracker for Claude Code reset times">
+    <meta name="keywords" content="Claude, Code, Timer, Tracker, Reset, AI, Cosmic, Space">
+    <meta name="author" content="Geethika Isuru">
+    <meta name="theme-color" content="#1a1a2e">
+    <title>🌌 Claude Code Timer Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="click-counter">Clicks: 0</div>
+    <div class="container">
+        <h1>Claude Code Timer Tracker</h1>
+        <p>Track your 5-hour reset timers</p>
+
+        <div class="input-section">
+            <h2>Enter Reset Information</h2>
+            <div class="input-group">
+                <label for="resetDate">Last Reset Date:</label>
+                <input type="date" id="resetDate" required>
+            </div>
+
+            <div class="input-group">
+                <label for="resetTime">Last Reset Time:</label>
+                <input type="time" id="resetTime" required>
+            </div>
+
+            <button id="calculateBtn">Calculate Reset Times</button>
+            <button id="clearBtn">Clear Saved Data</button>
+        </div>
+
+        <div class="results-section" id="resultsSection" style="display: none;">
+            <h2>Upcoming Reset Times</h2>
+            <div id="resetTimes"></div>
+        </div>
+
+        <!-- About Section -->
+        <div class="about-section">
+            <p>Made with ❤️ by Geethika.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/geethikaisuru/" target="_blank">💼 LinkedIn</a>
+                <a href="https://github.com/geethikaisuru" target="_blank">📂 GitHub</a>
+                <a href="https://geethikaisuru.com" target="_blank">🛜 Web</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
